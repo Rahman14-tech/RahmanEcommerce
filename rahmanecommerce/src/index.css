@@ -1,0 +1,244 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blueBased{
+    color: #00B0FF;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+}
+
+
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+h4 {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.loading {
+    text-align: center;
+    margin-top: 5rem;
+}
+.socialmediaIcon{
+    height: 3%;
+    display: inline;
+    padding-right: 1rem;
+}
+.aboutSection{
+    padding-top: 3rem;
+}
+.listofItems{
+    height: 15rem;
+    padding-left: 6rem;
+}
+.popularItems{
+    height: 15rem;
+    width: 35rem;
+}
+.allProducts{
+    padding-left: 5rem;
+}
+.searchIcon{
+    position: absolute;
+    color: white;
+}
+.featuredProductsSection{
+    background: #f1f5f8;
+}
+.homeSection{
+    padding-bottom: 5rem;
+}
+.productContent{
+    padding-top: 3%;
+}
+
+.underline {
+    background: #00B0FF;
+    height: 0.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6rem;
+}
+.detailGambar{
+    height: 50%;
+}
+body{
+    overflow-x: hidden;
+}
+.underlineFilter{
+    background: #00B0FF;
+    height: 0.25rem;
+    margin-left: 5.2rem;
+    width: 18rem;
+}
+#findDesire{
+    padding-left: 5.1rem;
+}
+#paddingUF{
+    padding-bottom: 1rem;
+}
+.blueish{
+    color: #154c79;
+}
+.grayish{
+    color: #243a52;
+}
+.hideSignin{
+    display: none;
+}
+.textalignCenter{
+    text-align: center;
+}
+@keyframes shopButton_animation {
+    from{
+        background-color: #00B0FF;
+        color: aliceblue;
+    }to{
+        background-color: #59ccff;
+        color: #154c79;
+    }
+}
+.quantityArrow::-webkit-outer-spin-button, .quantityArrow::-webkit-inner-spin-button{
+        -webkit-appearance: none;
+        margin: 0;
+    }
+#RELOGO{
+    height: 4%;
+    width: 4%;
+}
+.inOneNav{
+    display: inline-block;
+}
+
+.shopButton{
+    background-color: #00B0FF;
+    color: aliceblue;
+    padding: 0.7rem 2rem;
+    border-radius: 0.2rem;
+}
+.hideOption{
+    display: none;
+}
+.shopButton:hover {
+    animation-name: shopButton_animation;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.leftMarginFilter{
+    margin-left: 5.2rem;
+}
+p{
+    line-height: 2;
+    max-width: 45em;
+    margin-bottom: 2rem;
+    color: #154c79;
+}
+@keyframes hover_allproductsbottom_animation {
+    from {
+            background-color: #00B0FF;
+            color: aliceblue;
+        }
+    
+        to {
+            background-color: #59ccff;
+            color: #154c79;
+        }
+}
+.cart-value{
+    position: absolute;
+    margin-left: 2.8%;
+        top: 14px;
+        background: #00B0FF;;
+        width: 10px;
+        height: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 0.75rem;
+        color: white;
+        padding: 9px;
+}
+.cart-value-small {
+    margin-left: 2.8%;
+    background: #00B0FF;
+    width: 10px;
+    height: 10px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    color: white;
+    padding: 9px;
+}
+.allProductsButton{
+    background-color: #00B0FF;
+        color: aliceblue;
+        padding: 0.4rem 1rem;
+        border-radius: 0.2rem;
+        margin-top: 3rem;
+}
+.allProductsButton:hover {
+    animation-name: hover_allproductsbottom_animation;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes hover_bottom_animation {
+    from {
+    }
+
+    to {
+        color: #00B0FF;
+        border-bottom: 1px solid #00B0FF;
+        padding-bottom: 3px;
+    }
+}
+.sectionPadding{
+    padding: 5rem 0;
+}
+.bottomHover:hover{
+    animation-name: hover_bottom_animation;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.navbar {
+    width: 100vw;
+    max-width: var(--max-width);
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 4rem;
+}
+.whitening{
+    color: aliceblue;
+}
+.upperSection{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+#upperSectionImage{
+    max-width: 60%;
+    height: auto;
+}
