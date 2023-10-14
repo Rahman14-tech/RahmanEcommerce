@@ -13,7 +13,7 @@ import { assignUser } from "./features/cart/user";
 export const WidthContext = React.createContext();
 
 function App() {
-  const { isLoading } = useSelector((store) => store.products);
+  const { isLoading, productItems } = useSelector((store) => store.products);
   const [windowWidth, widthHandler] = useState(window.innerWidth);
   const dispatch = useDispatch();
   const checkWidth = () => {
@@ -38,6 +38,7 @@ function App() {
       </div>
     );
   }
+  console.log(productItems);
   return (
     <WidthContext.Provider value={{ windowWidth }}>
       <BrowserRouter>

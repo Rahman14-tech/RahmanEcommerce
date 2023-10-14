@@ -26,14 +26,8 @@ const SmallerABoutContent = () => {
         <h1 className="blueBased">E-Commerce</h1>
         <p>
           Rahman E-Commerce is created by Muhammmad Akbar Rahman to showcase his
-          skill using react application combine with tailwind css. This is his
-          first project in building react app, which he uses react router,
-          redux, and other react library. He taught himself react via youtube
-          and build this app immediately after learning it. Also, this is his
-          first time using tailwind CSS by reading docummentation available at
-          the tailwind CSS website and other website. In addition, all the items
-          are from fakestore API and to get the data Muhammad Akbar Rahman uses
-          axios.
+          skill using react application. This is his first project in building
+          react app, which he uses react router, redux, and other react library.
         </p>
         <a href="https://www.linkedin.com/in/muhammad-akbar-rahman-8951a9127/">
           <button
@@ -69,9 +63,7 @@ const AboutContent = () => {
           redux, and other react library. He taught himself react via youtube
           and build this app immediately after learning it. Also, this is his
           first time using tailwind CSS by reading docummentation available at
-          the tailwind CSS website and other website. In addition, all the items
-          are from fakestore API and to get the data Muhammad Akbar Rahman uses
-          axios.
+          the tailwind CSS website and other website.
         </p>
         <a href="https://www.linkedin.com/in/muhammad-akbar-rahman-8951a9127/">
           <button
